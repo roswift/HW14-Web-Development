@@ -20,6 +20,19 @@ Answer the following questions about the HTTP request and response process.
        * DELETE
        * CONNECT
        * OPTIONS
+     * The request URI
+     * The HTTP protocol version
+   **The Request Header:
+     * The Request Header provides information about the nature of the request for the servers response
+     * Sample Header Variations
+       * Connection
+       * Host
+       * Upgrade
+       * Accept
+       * User-Agent
+       * Authorizatoin
+       * Referrer
+       * Cookie
        
    **The Request Header:
    **The Request Body:
