@@ -8,11 +8,12 @@ Homework assignment for week 14 of the UCSD Cybersecurity Bootcamp
 Answer the following questions about the HTTP request and response process.
 
 1. What type of architecture does the HTTP request and response process occur in?
-   **Client-Server Architecture, on the Application Layer of the OSI Model.
+ * **_Client-Server Architecture, on the Application Layer of the OSI Model._**
    
 2. What are the different parts of an HTTP request? 
-   **The Request Line:
-     * The HTTP method
+ * **_The Request Line:_**
+   * **_The first line of the HTTP request which includes the following:_**
+    * HTTP method:
        * GET
        * HEAD
        * POST
@@ -22,31 +23,43 @@ Answer the following questions about the HTTP request and response process.
        * OPTIONS
      * The request URI
      * The HTTP protocol version
-   **The Request Header:
-     * The Request Header provides information about the nature of the request for the servers response
-     * Sample Header Variations
-       * Connection
-       * Host
-       * Upgrade
-       * Accept
-       * User-Agent
-       * Authorizatoin
-       * Referrer
-       * Cookie
-       
-   **The Request Header:
-   **The Request Body:
    
+  * **_The Request Header:_**
+     * **_The Request Header provides information about the nature of the request for the servers response._**
+      * Sample Header Variations:
+         * Connection
+         * Host
+         * Upgrade
+         * Accept
+         * User-Agent
+         * Authorizatoin
+         * Referrer
+         * Cookie
+       
+  * **_The Request Body:_**
+      * Is the data sent by the client to your API. A response body is the data your API sends to the client. 
 
 3. Which part of an HTTP request is optional?
-
+  * **_The optional part of the HTTP Request is the Body._**
+  
 4. What are the three parts of an HTTP response?
+  * **_The Three parts of an HTTP response are:_**
+    * Status Line - Unencrypted protocol in use & status code
+      * Status Codes: 100's, 200's, 300's, 400's, and 500's
+    * Header 
+    * Body - Optional
 
 5. Which number class of status codes represents errors?
+  * **_400 codes indicate client errors._**
+  * **_500 codes inidicate server errors._**
 
 6. What are the two most common request methods that a security professional will encounter?
+* **_The two most common request methods are:_**
+  * 'GET' and 'POST'
 
 7. Which type of HTTP request method is used for sending data?
+* **_The HTTP Request method that is used for sending data is:_**
+   * 'POST'
 
 8. Which part of an HTTP request contains the data being sent to the server?
 
